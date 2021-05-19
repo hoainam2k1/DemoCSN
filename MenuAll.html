@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tất Cả Sản Phẩm</title>
+    <link rel="stylesheet" href="asset/fonts/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.4/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <SCRIPT LANGUAGE = "Javascript">
+        $(document).ready(function() {
+          $("a[href*='#']:not([href='#])").click(function() {
+            let target = $(this).attr("href");
+            $('html,body').stop().animate({
+              scrollTop: $(target).offset().top
+            }, 1000);
+            event.preventDefault();
+          });
+        });</SCRIPT>    
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-md navbar-light sticky-top header">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-branch">
+                <img src="./asset/img/Slider/logo.PNG" alt="" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Trang Chủ</a>
+                        
+                    </li>
+                    
+                    <li class="nav-item sub-nav">
+                        <a href="#menu-content" class="nav-link">Menu</a>
+                        
+                            <ul class="sub-nav-menu">
+                                <li><a href="#caphevietnam">CÀ PHÊ VIỆT NAM</a></li>
+                                <li><a href="#caphemay">CÀ PHÊ MÁY</a></li>
+                                <li><a href="#coldbrew">COLD BREW</a></li>
+                                <li><a href="#tratraicay">TRÀ TRÁI CÂY</a></li>
+                                <li><a href="#trasuamacchiato">TRÀ SỮA MACCHIATO</a></li>
+                                <li><a href="#caphedaxay">CÀ PHÊ ĐÁ XAY</a></li>
+                                <li><a href="#thucuongtraicay">THỨC UỐNG TRÁI CÂY</a></li>                             
+                                <li><a href="#matcha-socola">MATCHA - SÔCÔLA</a></li>
+                                <li><a href="#banh-snack">BÁNH & SNACK</a></li>
+                            </ul>
+                        
+                    </li>
+                    
+                    
+                    <li class="nav-item">   
+                        <a href="news.html" class="nav-link">Tin tức</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="recruitment.html" class="nav-link">Tuyển dụng</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="shop.html" class="nav-link">Cửa hàng</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#footer" class="nav-link">Liên Hệ</a>
+                    </li>
+                    <li class="nav-item" >                       
+                        <a href="" class="nav-link search-icon ti-search" style="color: white;"  >                           
+                        </a>
+                    </li>
+                </ul>
+                
+                
+            </div>
+        </div>
+    </nav>
+    <div>
+        <img src="./asset/img/Slider/coccaphe.jpg" width = "95%" height = "500px" style="margin-top: 65px;margin-left: 45px; padding: 10px;" alt="">
+    </div>
+    <div class="side-bar-content">                                       
+        <div class="nav-content">
+            <!--start cà phê việt nam-->
+            <div id="caphevietnam" style="padding: 20px 20px;">  
+                <div class="list-menu row">
+                    <div class="type-coffee"><h3 style="margin-left: 25px;font-weight: bold; font-size:35px;display: inline; ;border-bottom: 2px solid orange;">CÀ PHÊ VIỆT NAM</h3></div>          
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/cfvn1.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3><a href="" class="name-item" style="font-size: 17px;">BẠC SỈU</a></h3>
+                            <p class="values-item">32,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/cfvn2.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3 ><a href="" class="name-item" style="font-size: 17px;">CÀ PHÊ ĐEN</a></h3>
+                            <p class="values-item">32,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/cfvn3.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3 ><a href="" class="name-item" style="font-size: 17px;">CÀ PHÊ SỮA</a></h3>
+                            <p class="values-item">32,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>                            
+                </div>
+            </div>
+            <!-- end cà phê việt nam -->
+            <!-- start cà phê máy -->
+            <div id="caphemay" style="padding: 20px 20px;">
+                <div class="list-menu row">           
+                    <div class="type-coffee"><h3 style="margin-left: 25px;font-weight: bold; font-size:35px;display: inline; ;border-bottom: 2px solid orange;">CÀ PHÊ MÁY</h3></div>                          
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/cfmay1.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3><a href="" class="name-item" style="font-size: 17px;">AMERICANO</a></h3>
+                            <p class="values-item">40,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/cfmay2.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3 ><a href="" class="name-item" style="font-size: 17px;">CAPPUCCINO</a></h3>
+                            <p class="values-item">50,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/cfmay3.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3 ><a href="" class="name-item" style="font-size: 17px;">CARAMEL MACCHIATO</a></h3>
+                            <p class="values-item">50,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>                            
+                </div>
+    
+                <div class="list-menu row">           
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/cfmay4.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3><a href="" class="name-item" style="font-size: 17px;">ESPRESSO</a></h3>
+                            <p class="values-item">40,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/cfmay5.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3 ><a href="" class="name-item" style="font-size: 17px;">LATTE</a></h3>
+                            <p class="values-item">50,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/cfmay6.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3 ><a href="" class="name-item" style="font-size: 17px;">MOCHA</a></h3>
+                            <p class="values-item">50,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>                            
+                </div>
+            </div>
+            <!-- end cà phê máy -->
+            <!-- start cold brew -->
+            <div id ="coldbrew" style="padding: 20px 20px;">
+                <div class="list-menu row">           
+                    <div class="type-coffee"><h3 style="margin-left: 25px;font-weight: bold; font-size:35px;display: inline; ;border-bottom: 2px solid orange;">COLD BREW</h3></div>                          
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/coldbrew1.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3><a href="" class="name-item" style="font-size: 17px;">COLD BREW TRUYỀN THỐNG</a></h3>
+                            <p class="values-item">45,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/coldbrew2.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3 ><a href="" class="name-item" style="font-size: 17px;">COLD BREW SỮA TƯƠI</a></h3>
+                            <p class="values-item">45,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/coldbrew3.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3 ><a href="" class="name-item" style="font-size: 17px;">COLD BREW PHÚC BỒN TỬ</a></h3>
+                            <p class="values-item">50,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>                            
+                </div>
+            </div>
+            <!-- end cold brew -->
+            <!-- start trà trái cây -->
+            <div id="tratraicay" style="padding: 20px 20px;">
+                <div class="list-menu row">           
+                    <div class="type-coffee"><h3 style="margin-left: 25px;font-weight: bold; font-size:35px;display: inline; ;border-bottom: 2px solid orange;">TRÀ TRÁI CÂY</h3></div>                          
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/tratraicay1.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3><a href="" class="name-item" style="font-size: 17px;">TRÀ TRÁI VẢI</a></h3>
+                            <p class="values-item">45,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/tratraicay2.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3 ><a href="" class="name-item" style="font-size: 17px;">TRÀ HẠT SEN</a></h3>
+                            <p class="values-item">45,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/tratraicay3.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3 ><a href="" class="name-item" style="font-size: 17px;">TRÀ ĐÀO CAM SẢ</a></h3>
+                            <p class="values-item">45,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>                            
+                </div>
+            </div>
+            <!-- end trà trái cây -->
+            <!-- start trà sữa macchiato -->
+            <div id="trasuamacchiato" style="padding: 20px 20px;">
+                <div class="list-menu row">           
+                    <div class="type-coffee"><h3 style="margin-left: 25px;font-weight: bold; font-size:35px;display: inline; ;border-bottom: 2px solid orange;">TRÀ SỮA MACCHIATO</h3></div>                          
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/tsmachiato1.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3><a href="" class="name-item" style="font-size: 17px;">TRÀ LÀI MACCHIATO</a></h3>
+                            <p class="values-item">42,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/tsmachiato2.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3 ><a href="" class="name-item" style="font-size: 17px;">TRÀ MATCHA MACCHIATO</a></h3>
+                            <p class="values-item">45,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/tsmachiato3.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3 ><a href="" class="name-item" style="font-size: 17px;">Trà sữa Oolong Nướng</a></h3>
+                            <p class="values-item">50,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>                            
+                </div>
+            </div>
+            <!-- end trà sữa macchiato-->
+            <!-- start cà phê đá xay -->
+            <div id="caphedaxay" style="padding: 20px 20px;">
+                <div class="list-menu row">           
+                    <div class="type-coffee"><h3 style="margin-left: 25px;font-weight: bold; font-size:35px;display: inline; ;border-bottom: 2px solid orange;">CÀ PHÊ ĐÁ XAY</h3></div>                          
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/cfdaxay1.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3><a href="" class="name-item" style="font-size: 17px;">CÀ PHÊ ĐÁ XAY</a></h3>
+                            <p class="values-item">59,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/cfdaxay2.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3 ><a href="" class="name-item" style="font-size: 17px;">COOKIES ĐÁ XAY</a></h3>
+                            <p class="values-item">59,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col col-third">
+                    
+                    </div>                     
+                </div>
+            </div>
+            <!-- end cà phê đá xay -->
+            <!-- start thức uống trái cây -->
+            <div id="thucuongtraicay" style="padding: 20px 20px;">
+                <div class="list-menu row">           
+                    <div class="type-coffee"><h3 style="margin-left: 25px;font-weight: bold; font-size:35px;display: inline; ;border-bottom: 2px solid orange;">THỨC UỐNG TRÁI CÂY</h3></div>                          
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/thucuongtraicay1.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3><a href="" class="name-item" style="font-size: 17px;">PHÚC BỒN TỬ CAM ĐÁ XAY</a></h3>
+                            <p class="values-item">49,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/thucuongtraicay2.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3 ><a href="" class="name-item" style="font-size: 17px;">ĐÀO VIỆT QUẤT ĐÁ XAY</a></h3>
+                            <p class="values-item">59,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/thucuongtraicay3.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3 ><a href="" class="name-item" style="font-size: 17px;">CHANH SẢ ĐÁ XAY</a></h3>
+                            <p class="values-item">59,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>                            
+                </div>
+            </div>
+            <!-- </div>end thức uống trái cây -->
+            <!-- start MATCHA - SÔCÔLA -->
+            <div id="matcha-socola" style="padding: 20px 20px;">
+                <div class="list-menu row">           
+                    <div class="type-coffee"><h3 style="margin-left: 25px;font-weight: bold; font-size:35px;display: inline; ;border-bottom: 2px solid orange;">MATCHA - SÔCÔLA</h3></div>                          
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/matchasoco1.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3><a href="" class="name-item" style="font-size: 17px;">MATCHA LATTE</a></h3>
+                            <p class="values-item">59,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/matchasoco2.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3 ><a href="" class="name-item" style="font-size: 17px;">MATCHA ĐÁ XAY</a></h3>
+                            <p class="values-item">59,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/matchasoco3.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3 ><a href="" class="name-item" style="font-size: 17px;">SÔ CÔ LA ĐÁ XAY</a></h3>
+                            <p class="values-item">59,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>                            
+                </div>
+            </div>
+            <!-- end MATCHA - SÔCÔLA-->
+            <!-- start snack -->
+            <div id="banh-snack" style="padding: 20px 20px;">
+                <div class="list-menu row">           
+                    <div class="type-coffee"><h3 style="margin-left: 25px;font-weight: bold; font-size:35px;display: inline; ;border-bottom: 2px solid orange;">BÁNH & SNACK</h3></div>                          
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/banh1.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3><a href="" class="name-item" style="font-size: 17px;">BÁNH MÌ QUE</a></h3>
+                            <p class="values-item">12,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/banh2.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3 ><a href="" class="name-item" style="font-size: 17px;">BÁNH MÌ CHÀ BÔNG PHÔ MAI</a></h3>
+                            <p class="values-item">32,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col col-third">
+                        <img src="./asset/img/Menu/banh3.webp" alt="" class="place-img">
+                        <div class="menu-body">
+                            <h3 ><a href="" class="name-item" style="font-size: 17px;">BÁNH BAO HAI TRỨNG CÚT</a></h3>
+                            <p class="values-item">25,000 Đ</p>
+                            <div class="btn">
+                                <button class="btn-buy">MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>    
+                    
+                </div>
+                <div class="list-menu row">
+                 <div class="col col-third">
+                     <img src="./asset/img/Menu/banh4.webp" alt="" class="place-img">
+                     <div class="menu-body">
+                         <h3><a href="" class="name-item" style="font-size: 17px;">CAM TƯƠI SẤY DẺO</a></h3>
+                         <p class="values-item">35,000 Đ</p>
+                         <div class="btn">
+                             <button class="btn-buy">MUA NGAY</button>
+                         </div>
+                     </div>
+                 </div>
+ 
+                 <div class="col col-third">
+                     <img src="./asset/img/Menu/banh5.webp" alt="" class="place-img">
+                     <div class="menu-body">
+                         <h3 ><a href="" class="name-item" style="font-size: 17px;">BÔNG LAN TRỨNG MUỐI</a></h3>
+                         <p class="values-item">29,000 Đ</p>
+                         <div class="btn">
+                             <button class="btn-buy">MUA NGAY</button>
+                         </div>
+                     </div>
+                 </div>
+ 
+                 <div class="col col-third">
+                     <img src="./asset/img/Menu/banh6.webp" alt="" class="place-img">
+                     <div class="menu-body">
+                         <h3 ><a href="" class="name-item" style="font-size: 17px;">CƠM CHÁY CHÀ BỐNG</a></h3>
+                         <p class="values-item">35,000 Đ</p>
+                         <div class="btn">
+                             <button class="btn-buy">MUA NGAY</button>
+                         </div>
+                     </div>
+                 </div>
+                </div>  
+            </div>
+            <!-- end snack -->
+        </div>
+    </div>   
+
+<!-- footer -->
+<div id="footer">
+    <div class="infor">
+        <h3>Sinh viên thực hiện: Nguyễn Hoài Nam</h3>
+        <h3>MSSV: 110119029</h3>
+        <h3>Lớp: DA19TTA</h3>
+    </div>
+    <div class="social-list">
+        <a href=""><i class="ti-facebook"></i></a>
+        <a href=""><i class="ti-instagram"></i></a>
+        <a href=""><i class="ti-youtube"></i></a>
+        <a href=""><i class="ti-pinterest"></i></a>
+        <a href=""><i class="ti-twitter"></i></a>
+        <a href=""><i class="ti-linkedin"></i></a>
+    </div>
+    
+</div>
+</body>
+</html>
